@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionaire</title>
+  </head>
+  <body>
+    <form action="mailto:amammadova16063@ada.edu.az" method="GET">
+      <label for="first_name">First name</label>
+      <input
+        id="first_name"
+        type="text"
+        placeholder="Enter your first name"
+        name="first_name"
+        value="FIRST"
+        required
+      />
+      <br />
+      <label for="second_name">Second name</label>
+      <input
+        id="second_name"
+        type="text"
+        placeholder="Enter your second name"
+        name="second_name"
+        value="SECOND"
+        required
+      /><br />
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Choose gender</legend>
+        <input id="gender_male" type="radio" name="gender" value="Male" />
+        <label for="gender_male">Male</label> <br />
+        <input id="gender_female" type="radio" name="gender" value="Female" />
+        <label for="gender_female">Female</label> <br />
+        <input id="gender_other" type="radio" name="gender" value="Other" />
+        <label for="gender_other">Other</label> <br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Which programming languages do you know?</legend>
+        <input type="checkbox" name="lang" id="lang_java" value="JAVA" />
+        <label for="lang_java">Java</label>
+        <input type="checkbox" name="lang" id="lang_python" value="PYTHON" />
+        <label for="lang_java">Python</label>
+        <input type="checkbox" name="lang" id="lang_js" value="JAVASCRIPT" />
+        <label for="lang_java">JavaScript</label>
+      </fieldset>
+      <br />
+
+      <input type="submit" value="SUBMIT" />
+    </form>
+  </body>
+</html>
