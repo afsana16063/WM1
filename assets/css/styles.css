@@ -19,6 +19,7 @@ td {
 
 .section1 img {
   border-radius: 30%;
+  margin-right: 50px;
 }
 
 span {
@@ -64,6 +65,7 @@ div a:hover {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  background-color: #1b69e0;
 }
 
 .container li {
